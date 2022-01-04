@@ -13,3 +13,5 @@ jobs:
         with:
           first-greeting: "John"
           second-greeting: "Anita"
+      - name: ha-ha
+        uses: ./.github/actions/joke-action
